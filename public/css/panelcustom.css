@@ -1,0 +1,20 @@
+
+.navbar-default{
+    background-color: #32424a;
+    border-bottom: 1px solid #1c2a31;
+    min-height: 70px;
+    border-radius: 0px;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0px;
+}
+
+.navbar-brand h1{
+    font-size: 30px;
+    color: rgba(255,255,255,.7);
+}

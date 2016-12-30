@@ -1,0 +1,108 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default{
+    background-color: #32424a;
+    border-bottom: 1px solid #1c2a31;
+    min-height: 70px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand img{
+    width: 120px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: rgba(255,255,255,.7);
+    padding-top: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+
+footer{
+    background: #f2f2f2;
+    width: 100%;
+    min-height: 70px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .container{
+    padding-top: 22px;
+}
+
+.course-item{
+    height: 500px;
+    box-shadow: 0.5px 2px 0.5px #d3d3d3;
+    border: 1px solid #f2f2f2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.course-item .caption-course{
+    height: 60px;
+}
+
+.course-item h3{
+    height: 80px;
+}
+
+.course-item .price-course{
+    background: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.course-presentation{
+    background: #7f8c8d;
+    border-bottom: 1px solid #6c7778;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.course-presentation h1{
+    margin-top: 40px;
+    text-shadow: 1px 1px 0px #6c7778;
+}
+
+.course-presentation .image-course-info{
+    position: absolute;
+    right: 50px;
+    top: 65px;
+    border-radius: 3px;
+    height: auto;
+    padding: 3px;
+    box-shadow: 0.5px 2px 0.5px #d3d3d3;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+}
+
+.course-presentation .lead{
+    margin-bottom: 10px;
+}
+
+.course-presentation .price{
+    font-size: 32px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.course-presentation .infos{
+    margin-bottom: 30px;
+}
+
+.description-text{
+    margin-top: 20px;
+}
+
+.content-margin{
+    margin-top: 30px;
+}
